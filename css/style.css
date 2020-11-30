@@ -15,6 +15,7 @@ body {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
 }
 
 .clock__box {
@@ -24,8 +25,6 @@ body {
     background-color: #000;
     height: 3rem;
     width: 9rem;
-    color: #2da4db;
-    font-weight: 500;
 }
 
 .time {

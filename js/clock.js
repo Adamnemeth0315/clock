@@ -7,7 +7,6 @@ function showTime(){
     clock.textContent = time;
 
     setTimeout(showTime, 1000);
-    console.log(time);
 }
 
 showTime();
