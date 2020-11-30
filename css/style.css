@@ -1,5 +1,11 @@
+@font-face {
+    font-family: "Cyberverse";
+    src: url(fonts/Cyberverse\ Bold.otf);
+    font-weight: 500;
+}
+
 html {
-    font-size: 40px;
+    font-size: 43px;
 }
 
 *{
@@ -23,11 +29,12 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #000;
-    height: 3rem;
-    width: 9rem;
+    height: 5rem;
+    width: 12rem;
 }
 
 .time {
     color: #2da4db;
     font-weight: 500;
+    font-family: 'Cyberverse';
 }
